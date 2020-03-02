@@ -1,0 +1,4 @@
+.message-display {
+    grid-area: message-display;
+    border: 1px solid black;
+}

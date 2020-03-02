@@ -1,0 +1,5 @@
+.chatbot-settings {
+    grid-area: chatbot-settings;
+    /*border: 1px solid black;*/
+    /*height: 10px;*/
+}

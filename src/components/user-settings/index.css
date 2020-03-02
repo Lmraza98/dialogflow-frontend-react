@@ -1,0 +1,64 @@
+.user-settings {
+    grid-area: user-settings;
+    /*border: 1px solid black;*/
+}
+.dropdown {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 100%;
+    /*justify-content: right!important;*/
+    justify-content: flex-end;
+    align-items: center;
+}
+.btn {
+    margin: 5px!important;
+}
+.btn-primary {
+    background-color: transparent !important;
+
+}
+.dropdown-toggle {
+    height: fit-content;
+    width: fit-content;
+    margin: 5px;
+
+}
+.profile-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 5px solid red;
+    padding: 5px;
+
+}
+.profile-img:hover {
+    background-color: red;
+    border: 0;
+}
+.dropdown-menu{
+    height: 100%;
+    width: 100%;
+
+}
+.dropdown-item{
+    text-align: center !important;
+}
+.dropdown-toggle {
+    border: none!important;
+    padding: 0!important;
+    margin: 5px;
+    padding-top: 5px !important;
+}
+.dropdown-toggle::after{
+    display: none!important;
+}
+.dropdown-menu.show {
+    /*display: none!important;*/
+
+    height: fit-content!important;
+}
+.dropdown-toggle.btn.btn-primary {
+    margin: 10px!important;
+}

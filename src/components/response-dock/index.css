@@ -1,0 +1,4 @@
+.response-dock {
+    grid-area: response-dock;
+    border: 1px solid black;
+}
