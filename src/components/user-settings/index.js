@@ -3,7 +3,7 @@ import './index.css'
 import DropdownButton from 'react-bootstrap/DropdownButton'
 import Dropdown from 'react-bootstrap/Dropdown'
 import Image from 'react-bootstrap/Image'
-import profile from './assets/profile_png.png'
+import profile from './assets/profile_avi.png'
 const profileImg = <img className={"profile-img"} src={profile}/>
 
 class UserSettings extends React.Component {

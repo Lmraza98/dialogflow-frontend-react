@@ -1,3 +1,31 @@
-.header {
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+.App-header {
     grid-area: header;
+    display: flex;
+    background-color: transparent;
+    min-height: 40px;
+    height: 100%;
+    /*max-height: 40px;*/
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+    vertical-align: center;
+    font-family: 'Orbitron', serif;
+    top: 50%;
+    padding-left: 1%;
+    /*color: white;*/
+    /*color: #5680e9;*/
+    /*color: #e4ceeb;*/
+    /*color: #5ab9ea;*/
+    /*color: #c1c8e4;*/
+    /*color: #8860D0;*/
+
 }
+collors: #5680e9
+#e4ceeb
+#5ab9ea
+#c1c8e4
+#8860D0

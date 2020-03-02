@@ -5,9 +5,7 @@ class Header extends React.Component {
 
     render() {
         return(
-            <div className="header">
-                <h2> Chatbot Header </h2>
-            </div>
+            <header className='App-header'> Harvard Chatbot Portal </header>
         )
     }
 }

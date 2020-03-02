@@ -6,15 +6,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-        <div className="grid-container">
-          <Header/>
-          <UserSettings/>
-          <ChatbotSettings/>
-          <ResponseDock/>
-          <MessageDisplay/>
-        </div>
-    </div>
+          <div className="App">
+              <div className="grid-container">
+                  <Header/>
+                  <UserSettings/>
+                  <ChatbotSettings/>
+                  <ResponseDock/>
+                  <MessageDisplay/>
+              </div>
+          </div>
+
   );
 }
 

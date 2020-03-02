@@ -1,4 +1,62 @@
+/*.response-dock {*/
+    /**/
+/*}*/
 .response-dock {
     grid-area: response-dock;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
+    bottom: 0;
+    height: 50px;
+    border-top: 5px solid rgba(0, 0, 0, 0.2);
+    /*box-shadow:0px -5px 5px #BBB;*/
+    /*margin-left: 15%;*/
+    /*margin-right: 15%;*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.input{
+    height: 100%;
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 1% 5% 1% 5%;
+    left:0;
+    flex-grow: 1;
+    background-color: transparent;
+    color: white;
+}
+.input::placeholder{
+
+    color: white;
+}
+
+.btn-send {
+    /*border-right: none;*/
+    /*border-left: 1px solid black;*/
+    /*color: #777777;*/
+    border-left: 1px solid white;
+    border-radius: 0;
+    /*outline: none ;*/
+    color: white;
+}
+
+/*noinspection ALL*/
+.btn-send:hover {
+    background-color:white;
+    color: white;
+    /*text-shadow: -0.06ex 0 white, 0.06ex 0 black;*/
+    /*text-shadow: blue 2px 2px;*/
+    /*text-effect: engrave;*/
+    outline: none;
+    border-image: linear-gradient(transparent 10%, #ffffff 10%, 90%, transparent 90%) 0 0 0 1 / 3px;
+}
+.btn-send:active .btn-send:focus {
+    -webkit-appearance: none;
+    outline: 0;
+    outline: none;
+    color: white;
+}
+.btn {
+    color: white!important;
 }

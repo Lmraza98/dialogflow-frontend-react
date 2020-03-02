@@ -1,4 +1,28 @@
-.message-display {
+.message-display{
     grid-area: message-display;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
+    bottom: 0;
+    height: 100%;
+    /*margin-left: 15%;*/
+    /*margin-right: 15%;*/
+    /*border-left: 1px solid  #888888;*/
+    /*border-right: 1px solid  #888888;*/
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y:auto;
+
+}
+.message-display::-webkit-scrollbar {
+    width: .5em;
+}
+
+.message-display::-webkit-scrollbar-track {
+    /*box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);*/
+}
+
+.message-display::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    border-radius: 20px;
+
+    /*outline: 1px solid slategrey;*/
 }

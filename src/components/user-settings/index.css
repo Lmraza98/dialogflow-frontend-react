@@ -11,31 +11,39 @@
     /*justify-content: right!important;*/
     justify-content: flex-end;
     align-items: center;
+    background-color: transparent !important;
 }
 .btn {
     margin: 5px!important;
+    background-color: transparent !important;
+    outline: none!important;
 }
 .btn-primary {
     background-color: transparent !important;
+    outline: none!important;
 
 }
 .dropdown-toggle {
     height: fit-content;
     width: fit-content;
     margin: 5px;
+    background-color: transparent !important;
+    outline: none!important;
 
 }
 .profile-img {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    border: 5px solid red;
+    border: 5px solid rgba(0, 0, 0, 0.2);
     padding: 5px;
+    outline: none!important;
 
 }
 .profile-img:hover {
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.2);
     border: 0;
+    outline: none!important;
 }
 .dropdown-menu{
     height: 100%;

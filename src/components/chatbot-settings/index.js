@@ -7,7 +7,7 @@ class ChatbotSettings extends React.Component {
         console.log('render called')
         return(
             <div className="chatbot-settings">
-                <p> Chatbot Settings </p>
+                {/*<p> </p>*/}
             </div>
         )
     }
