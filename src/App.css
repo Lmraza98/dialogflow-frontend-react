@@ -2,10 +2,10 @@
   text-align: center;
   height: 100%;
   background: #207cff;
-  background: -webkit-linear-gradient(top left, #207cff 0%, #5dffbb 100%);
-  background: -moz-linear-gradient(top left, #207cff 0%, #5dffbb 100%);
-  background: -o-linear-gradient(top left, #207cff 0%, #5dffbb 100%);
-  background: linear-gradient(to bottom right, #207cff 0%, #5dffbb 100%);
+  background: -webkit-linear-gradient(top left, #07bcf9 0%, #aaff95 100%);
+  background: -moz-linear-gradient(top left, #07bcf9 0%, #aaff95 100%);
+  background: -o-linear-gradient(top left, #07bcf9 0%, #aaff95 100%);
+  background: linear-gradient(to bottom right, #07bcf9 0%, #aaff95 100%);
 }
 
 .App-logo {
