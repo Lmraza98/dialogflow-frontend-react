@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .App-logo {
@@ -35,4 +36,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.grid-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 0.6fr 2fr minmax(50px, .6fr);
+  grid-template-rows: minmax(30px, 50px) 2.6fr 0.2fr;
+  grid-template-areas: "chatbot-settings header user-settings" "chatbot-settings message-display ." ". response-dock .";
 }
